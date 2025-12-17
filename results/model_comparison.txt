@@ -1,0 +1,132 @@
+================================================================================
+DROUGHT PREDICTION - COMPREHENSIVE MODEL COMPARISON
+================================================================================
+
+BASIC METRICS SUMMARY:
+--------------------------------------------------------------------------------
+              Model Accuracy Precision Recall F1-Score ROC-AUC
+Logistic Regression   0.9970    0.9943 0.9999   0.9971  1.0000
+                SVM   0.9924    0.9863 0.9991   0.9927  0.9999
+                KNN   0.9568    0.9440 0.9744   0.9590  0.9910
+        Naive Bayes   0.9466    0.9170 0.9860   0.9502  0.9936
+
+================================================================================
+DETAILED EVALUATION FOR EACH MODEL
+================================================================================
+
+
+================================================================================
+LOGISTIC REGRESSION
+================================================================================
+
+Basic Classification Metrics:
+  Accuracy:     0.9970 (99.70%)
+  Precision:    0.9943
+  Recall:       0.9999
+  Specificity:  0.9938
+  F1-Score:     0.9971
+  ROC-AUC:      1.0000
+
+Probabilistic Metric:
+  Log Loss:     0.0174
+
+Confusion Matrix:
+  True Negatives:  11,128
+  False Positives: 69
+  False Negatives: 1
+  True Positives:  11,999
+
+Additional Metrics:
+  NPV: 0.9999
+  False Positive Rate: 0.0062
+  False Negative Rate: 0.0001
+
+================================================================================
+SVM
+================================================================================
+
+Basic Classification Metrics:
+  Accuracy:     0.9924 (99.24%)
+  Precision:    0.9863
+  Recall:       0.9991
+  Specificity:  0.9852
+  F1-Score:     0.9927
+  ROC-AUC:      0.9999
+
+Probabilistic Metric:
+  Log Loss:     0.0130
+
+Confusion Matrix:
+  True Negatives:  11,031
+  False Positives: 166
+  False Negatives: 11
+  True Positives:  11,989
+
+Additional Metrics:
+  NPV: 0.9990
+  False Positive Rate: 0.0148
+  False Negative Rate: 0.0009
+
+================================================================================
+KNN
+================================================================================
+
+Basic Classification Metrics:
+  Accuracy:     0.9568 (95.68%)
+  Precision:    0.9440
+  Recall:       0.9744
+  Specificity:  0.9380
+  F1-Score:     0.9590
+  ROC-AUC:      0.9910
+
+Probabilistic Metric:
+  Log Loss:     0.1904
+
+Confusion Matrix:
+  True Negatives:  10,503
+  False Positives: 694
+  False Negatives: 307
+  True Positives:  11,693
+
+Additional Metrics:
+  NPV: 0.9716
+  False Positive Rate: 0.0620
+  False Negative Rate: 0.0256
+
+================================================================================
+NAIVE BAYES
+================================================================================
+
+Basic Classification Metrics:
+  Accuracy:     0.9466 (94.66%)
+  Precision:    0.9170
+  Recall:       0.9860
+  Specificity:  0.9043
+  F1-Score:     0.9502
+  ROC-AUC:      0.9936
+
+Probabilistic Metric:
+  Log Loss:     0.1530
+
+Confusion Matrix:
+  True Negatives:  10,126
+  False Positives: 1,071
+  False Negatives: 168
+  True Positives:  11,832
+
+Additional Metrics:
+  NPV: 0.9837
+  False Positive Rate: 0.0957
+  False Negative Rate: 0.0140
+
+
+================================================================================
+BEST MODEL: Logistic Regression
+================================================================================
+Accuracy:     0.9970
+Precision:    0.9943
+Recall:       0.9999
+Specificity:  0.9938
+F1-Score:     0.9971
+ROC-AUC:      1.0000
+Log Loss:     0.0174
